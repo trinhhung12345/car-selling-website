@@ -13,3 +13,7 @@ Mục tiêu của nhóm chúng em là xây dựng một website front-end bán o
 * Phương thức thanh toán (Payment) : giới thiệu các phương thức thanh toán
 * Chính sách bảo trì (maintenance) : giới thiệu các chính sách bảo trì
 * Liên hệ (contact) : form liên hệ
+
+
+## Website tham khảo:
+https://www.porsche.com
