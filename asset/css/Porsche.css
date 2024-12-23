@@ -328,11 +328,7 @@ header.shadow #search-icon {
   }
   
   .pagination button.active {
-    color: white;
-  }
-  
-  .pagination button:disabled {
     background-color: #fb0404;
-    cursor: not-allowed;
+    color: rgb(0, 0, 0);
   }
   
