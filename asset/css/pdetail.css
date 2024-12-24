@@ -74,7 +74,7 @@ header {
     text-decoration: none;
 }
 
-.navbar1 a:hover, .navbar .active {
+.navbar1 a:hover, .navbar1 .active {
     color: var(--main-color);
     border-bottom: 3px solid var(--main-color);
     text-decoration: none;
@@ -335,7 +335,7 @@ section {
     margin-bottom: 1rem;
 }
 
-.footer-box a, .footer-box p {
+.footer-box a {
     color: #818181;
     margin-bottom: 10px;
 }
