@@ -12,14 +12,11 @@ document.addEventListener("DOMContentLoaded", function() {
   function showItems(page = 1, filter = 'all') {
       const filteredItems = filterItemsByCategory(filter);
       const startIndex = (page - 1) * itemsPerPage;
-      const endIndex = page * itemsPerPage;
-      
+      const endIndex = page * itemsPerPage;      
       // Hide all items first
-      allItems.forEach(item => item.style.display = 'none');
-      
+      allItems.forEach(item => item.style.display = 'none');     
       // Show the filtered and paginated items
-      filteredItems.slice(startIndex, endIndex).forEach(item => item.style.display = 'block');
-      
+      filteredItems.slice(startIndex, endIndex).forEach(item => item.style.display = 'block');     
       // Update pagination controls
       updatePagination(filteredItems.length, page);
   }
