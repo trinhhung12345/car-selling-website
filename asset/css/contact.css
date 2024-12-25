@@ -115,7 +115,7 @@ header.shadow #search-icon {
 .navbar1 a:hover, .navbar .active {
     color: var(--main-color);
     border-bottom: 3px solid var(--main-color);
-    text-decoration: none;
+    /*text-decoration: none;*/
 }
 
 #search-icon {
