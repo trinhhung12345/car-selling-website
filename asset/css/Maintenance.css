@@ -15,7 +15,7 @@
 :root {
     --main-color: #d90429;
     --text-color: #020102;
-    --bg-color: #fff;
+    --bg-color: #e2e2e2;
 }
 
 section {
@@ -485,70 +485,4 @@ ul{
     margin-bottom: 0.5rem;
 }
 
-   /*About*/
 
-.ab {
-    display: flex;
-    margin-bottom: 4rem;
-}
-
-.ab1 img {
-    max-width: 500px;
-    max-height: 375px;
-    margin-left: 10rem;
-}
-
-.ab1 {
-    width: 60%;
-}
-
-.ab2 {
-    align-items: center;
-    width: 40%;
-}
-
-.ab2 h2 {
-    font-weight: 550;
-    font-size: 30px;
-    margin-top: 1rem;
-    margin-right: 10rem;
-}
-.ab2 p {
-    margin-right: 10rem;
-}
-
-.ab3 {
-    margin-left: 1rem;
-    margin-top: 4rem;
-}
-.ab3 p a {
-    color: rgba(0, 0, 0, 0.56);
-    text-decoration: underline;
-}
-
-/*Payment*/
-.heading3{
-    margin-left: 260px;
-    margin-right: 260px;
-}
-.heading3 span{
-    font-weight: 620;
-    color: var(--main-color);
-    font-size: 4.5rem;
-}
-.heading4 span {
-    font-size: 1.3rem;
-    color: var(--main-color);
-    margin-left: 700px;
-}
-.heading3 p{
-    font-size: 0.938rem;
-    font-weight: 400;
-    margin-left: 100px;
-
-}
-
-.heading3 h3{
-    margin-left: 330px;
-    margin-right: 100px;
-}
