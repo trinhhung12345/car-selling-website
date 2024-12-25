@@ -236,9 +236,7 @@ header.shadow #search-icon {
     background: var(--text-color);
     color: #f6f6f6;
     border-top: 2px solid var(--main-color);
-    padding: 0rem 15rem;
-    padding-top: 3rem;
-    padding-bottom: 5rem;
+    padding: 3rem 15rem 5rem;
 }
 
 .footer-container {

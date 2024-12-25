@@ -16,11 +16,11 @@
 :root {
     --main-color: #d90429;
     --text-color: #020102;
-    --bg-color: #fff;
+    --bg-color: #e2e2e2;
 }
 
 section {
-    padding: 4rem 0rem 2rem;
+    padding: 4rem 0 2rem;
 }
 
 img {
@@ -49,11 +49,19 @@ header {
 header.shadow {
     background: var(--bg-color);
     box-shadow: 4px 4px 20px rgb(15 54 55 / 10%);
-    transition: 0.5s;
+    transition: 0.5s ease;
 }
 
 header.shadow #search-icon {
     color: var(--text-color);
+}
+
+#navbar {
+    margin-top: 0.5rem;
+}
+
+#navbar:hover {
+    cursor: pointer;
 }
 
 .nav {
@@ -171,8 +179,7 @@ header.shadow #search-icon {
 
 .heading {
     text-align: center;
-    max-width: 1068px;
-    margin: auto;
+    margin-bottom: 30px;
 }
 
 .heading span {
@@ -374,7 +381,7 @@ header.shadow #search-icon {
 }
 
 .footer {
-    padding-top: 3rem;
+    padding: 3rem 15rem 5rem;
     background: var(--text-color);
     color: #f6f6f6;
     border-top: 2px solid var(--main-color);
