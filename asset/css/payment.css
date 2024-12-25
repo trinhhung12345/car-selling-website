@@ -275,25 +275,6 @@ header.shadow #search-icon {
     padding: 20px;
 }
 
-.text-container h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    margin-right: 300px;
-}
-
-hr{
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
-    margin: 10px;
-}
-
 ul{
     margin-left: 2rem;
 }
